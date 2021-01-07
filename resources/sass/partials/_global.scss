@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: red;
+}
+
+//SPACES
+@each $size in 0, 1, 2, 3, 4, 6 {
+    .mt-#{$size} {
+        margin-top: $size - 0rem;
+    }
+    .mb-#{$size} {
+        margin-bottom: $size - 0rem;
+    }
+}
