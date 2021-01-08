@@ -3,3 +3,28 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+
+//MIXINS
+@mixin flex-center {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+@mixin flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

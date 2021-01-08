@@ -1,0 +1,54 @@
+.main-footer {
+    color: $white-text;
+    .top {
+        position: relative;
+        height: 390px;
+        background-image: url('../images/footer-bg.jpg');
+        background-size: cover;
+        background-position: center;
+        .container {
+            @include flex-start;
+            .credits {
+                @include flex-start;
+                align-items: flex-start;
+                & li {
+                    line-height: 20px;
+                    margin-right: 40px;
+                    & a {
+                        font-size: 12px;
+                        color: $link-footer;
+                    }
+                }
+            }
+        }
+        img {
+            position: absolute;
+            top: -25%;
+            right: 50px;
+            z-index: 1;
+        }
+    }
+    .bottom {
+        background: $footer-col;
+        .container {
+            @include flex-between;
+            .left {
+                .sign-up {
+                    padding: 10px;
+                    border: 1px soldi $primary-col;
+                }
+            }
+            .right {
+                ul {
+                    @include flex-end;
+                    li {
+                        width:50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background: $link-footer;
+                    }
+                }
+            }
+        }
+    }
+}

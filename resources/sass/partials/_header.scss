@@ -1,0 +1,45 @@
+.main-header {
+    text-transform: uppercase;
+    font-weight: 800;
+    .header-top {
+        font-size: 14px;
+        background-color: $primary-col;
+        .container {
+            @include flex-end;
+            li {
+                color: $white-text;
+                margin-left: 20px;
+                a {
+                    color: $white-text;
+                }
+            }
+        }
+    }
+    .container {
+        @include flex-between;
+        padding: 20px 0;
+        .navbar-brand {
+            @include flex-center;
+            margin-right: 20px;
+        }
+        .navbar-nav {
+            ul {
+                @include flex-center;
+                li {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill);
+                    margin: 15px;
+                    a {
+                        color: $color-text;
+                    }
+                }
+            }
+            input {
+                text-align: right;
+                font-size: 14px;
+                border: none;
+                border-bottom: 1px solid $primary-col;
+            }
+        }
+    }
+}

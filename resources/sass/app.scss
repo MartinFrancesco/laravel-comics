@@ -1,8 +1,13 @@
 //GLOBAL
 @import 'partials/global';
-//GLOBAL
+//UTILITIES
 @import 'partials/utilities';
+@import 'partials/vars';
+//PAGE
+@import 'partials/header';
+@import 'partials/footer';
 
 //sections//components
 @import 'partials/general-hero';
 @import 'partials/comics-list';
+@import 'partials/links';

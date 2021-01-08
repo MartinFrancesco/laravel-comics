@@ -15,7 +15,7 @@ class comicController extends Controller
         //Get specific comic by id
         $comic = [];
         foreach ($comics as $item) {
-            if ($id == $item('id')) {
+            if ($id == $item['id']) {
                 $comic = $item;
             }
         }
