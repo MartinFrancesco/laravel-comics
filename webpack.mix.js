@@ -13,6 +13,15 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
+    .browserSync({
+        proxy: 'false',
+        watch: true,
+        server: {
+            baseDir: './',
+            index: 'index.php',
+        },
+        notify: false,
+    })
     .options({
         processCssUrls: false,
      });

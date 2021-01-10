@@ -10,7 +10,12 @@
 
         <section class="comics mt-3">
             <div class="container">
-                COMIC DETAIL HERE
+                <div class="description">
+                    
+                </div>
+                <div class="advertise">
+                    
+                </div>
             </div>
         </section>
     </main>    

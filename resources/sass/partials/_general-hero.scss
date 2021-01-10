@@ -4,9 +4,10 @@
    background-size: cover;
    background-position: center;
    border-bottom: 20px solid $primary-col;
+   overflow: hidden;
    .container {
       position: relative;
-      bottom: -120px;
+      bottom: -100px;
       img {
          margin-left: 100px;
          border: 1px solid $white-text;

@@ -129,6 +129,11 @@
                             </a>
                         </li>
                     </ul>
+                    {{-- Paragraph --}}
+                    <small>
+                        All Site Content TM and 2020 DC Entertainment, unless otherwise <a>noted here</a>. All rights reserved. <br>
+                        <a>Cookies Settings</a>
+                    </small>
                 </div>
              </div>
 
@@ -146,29 +151,29 @@
                         <li>
                             <h2>Follow us</h2>
                         </li>
-                        <li>
+                        <li class="social">
                             <a href="">
-                                <div class="social"></div>
+                                <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
-                        <li>
+                        <li class="social">
                             <a href="">
-                                <div class="social"></div>
+                                <i class="fab fa-twitter"></i>
                             </a>
                         </li>
-                        <li>
+                        <li class="social">
                             <a href="">
-                                <div class="social"></div>
+                                <i class="fab fa-youtube"></i>
                             </a>
                         </li>
-                        <li>
+                        <li class="social">
                             <a href="">
-                                <div class="social"></div>
+                                <i class="fab fa-pinterest-p"></i>
                             </a>
                         </li>
-                        <li>
+                        <li class="social">
                             <a href="">
-                                <div class="social"></div>
+                                <i class="fas fa-map-marker-alt"></i>
                             </a>
                         </li>
                     </ul>

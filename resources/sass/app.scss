@@ -1,3 +1,8 @@
+//LIBRARIES
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
 //GLOBAL
 @import 'partials/global';
 //UTILITIES
@@ -10,4 +15,5 @@
 //sections//components
 @import 'partials/general-hero';
 @import 'partials/comics-list';
+@import 'partials/show';
 @import 'partials/links';

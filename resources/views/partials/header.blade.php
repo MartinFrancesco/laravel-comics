@@ -11,6 +11,7 @@
             <li>
                 <a href="">
                     Additional DC Sites
+                    <i class="fas fa-caret-down"></i>
                 </a>
             </li>
         </ul>
@@ -52,12 +53,13 @@
                     <a href="">News</a>
                 </li>
                 <li>
-                    <a href="">Shop</a>
+                    <a href="">Shop <i class="fas fa-caret-down"></i></a>
                 </li>
             </ul>
         </nav>
         {{-- Logo --}}
-        <input (type="text" id="name" required)>
+        <input (type="text" id="search" required) placeholder="Search">
+        <i class="fas fa-search"></i>
         <label (for="name") Name>
     </div>
 
