@@ -20,6 +20,6 @@ class comicController extends Controller
             }
         }
 
-        return view('comics.show');
+        return view('comics.show', compact('comic'));
     }
 }

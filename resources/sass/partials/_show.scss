@@ -1,15 +1,74 @@
 // SHOW
-.comics {
-    .container {
+.detail {
+    background-color: $white-text;
+    .center {
+        @include flex-center;
+        align-items: flex-start;
     }
     .description {
-        height: 200px;
-        width: 400px;
-        background: red;
+        width: 500px;
+        padding-right: 25px;
+        h1 {
+            margin: 0;
+        }
+        .label {
+            @include flex-between;
+            height: 50px;
+            width: 480px;
+            margin: 30px 0;
+            background-color: $label-det;
+            color: $white-text;
+            border-bottom: 1px solid black;
+            h5 {
+                margin-left: 10px;
+            }
+            div {
+                @include flex-center;
+                height: 100%;
+                padding: 0 5px;
+                border-left: 1px solid black;
+                a {
+                    color: $white-text;
+                }
+            }
+        }
     }
     .advertise {
-        height: 200px;
-        width: 400px;
-        background: blue;
+        text-transform: uppercase;
+        width: 300px;
+        h4 {
+            margin: 0 0 8px 0;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+// SPECIFICS
+.specifics {
+    background: #f6f6f6;
+    padding: 50px 0;
+    .container {
+        @include flex-center;
+        .left, .right{
+            height: 300px;
+            width: 400px;
+            padding: 10px;
+            & label, & > h3 {
+                color: $specifics;
+            }
+            div {
+                @include flex-between;
+                border-top: 1px solid #e3e3e3;
+                border-bottom: 1px solid #e3e3e3;
+                p {
+                    color: #00a9d9;
+                }
+            }
+            div:first-of-type, div:nth-child(3) {
+                border-bottom: none;
+            }
+        }
     }
 }

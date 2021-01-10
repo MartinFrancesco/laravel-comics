@@ -6264,7 +6264,6 @@ h2 {
 }
 
 .main-footer {
-  margin-top: 80px;
   color: #fff;
 }
 .main-footer .top {
@@ -6417,15 +6416,87 @@ h2 {
   font-weight: bold;
 }
 
-.comics .description {
-  height: 200px;
-  width: 400px;
-  background: red;
+.detail {
+  background-color: #fff;
 }
-.comics .advertise {
-  height: 200px;
+.detail .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+.detail .description {
+  width: 500px;
+  padding-right: 25px;
+}
+.detail .description h1 {
+  margin: 0;
+}
+.detail .description .label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 480px;
+  margin: 30px 0;
+  background-color: #55ba59;
+  color: #fff;
+  border-bottom: 1px solid black;
+}
+.detail .description .label h5 {
+  margin-left: 10px;
+}
+.detail .description .label div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 5px;
+  border-left: 1px solid black;
+}
+.detail .description .label div a {
+  color: #fff;
+}
+.detail .advertise {
+  text-transform: uppercase;
+  width: 300px;
+}
+.detail .advertise h4 {
+  margin: 0 0 8px 0;
+}
+.detail .advertise img {
+  max-width: 100%;
+}
+
+.specifics {
+  background: #f6f6f6;
+  padding: 50px 0;
+}
+.specifics .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.specifics .container .left, .specifics .container .right {
+  height: 300px;
   width: 400px;
-  background: blue;
+  padding: 10px;
+}
+.specifics .container .left label, .specifics .container .left > h3, .specifics .container .right label, .specifics .container .right > h3 {
+  color: #003f5e;
+}
+.specifics .container .left div, .specifics .container .right div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+.specifics .container .left div p, .specifics .container .right div p {
+  color: #00a9d9;
+}
+.specifics .container .left div:first-of-type, .specifics .container .left div:nth-child(3), .specifics .container .right div:first-of-type, .specifics .container .right div:nth-child(3) {
+  border-bottom: none;
 }
 
 .links {
